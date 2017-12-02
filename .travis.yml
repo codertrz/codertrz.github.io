@@ -36,3 +36,11 @@ after_script:
   - sed -i "s/gh_token/${GH_TOKEN}/g" ./_config.yml
   - hexo deploy
 # End: Build LifeCycle
+# 
+
+notifications:
+  email:
+    recipients:
+      - lizeguangok@gmail.com
+    on_success: never # default: change
+    on_failure: always # default: always
