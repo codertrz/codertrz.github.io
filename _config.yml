@@ -77,7 +77,7 @@ theme: even
 deploy:
 - type: git
   # 下方的gh_token会被.travis.yml中sed命令替换
-  repo: https://gh_token@github.com/codertrz.github.io.git
+  repo:  https://gh_token@github.com/codertrz/codertrz.github.io.git
   branch: master
 
 # # Deployment
