@@ -38,9 +38,3 @@ after_script:
 # End: Build LifeCycle
 # 
 
-notifications:
-  email:
-    recipients:
-      - lizeguangok@gmail.com
-    on_success: never # default: change
-    on_failure: always # default: always
